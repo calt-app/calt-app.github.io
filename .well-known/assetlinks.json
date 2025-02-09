@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.calt.calt_mobile_app",
+      "sha256_cert_fingerprints": [
+        "89:C2:58:29:F6:10:EB:16:AE:A0:EC:C7:68:FB:AC:66:64:F3:52:76:F3:3E:45:2F:31:05:E8:11:D0:72:FC:C2"
+      ]
+    }
+  }
+]
