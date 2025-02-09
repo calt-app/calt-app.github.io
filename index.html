@@ -16,6 +16,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
+        <script>
+            if (window.location.pathname.startsWith('/events/')) {
+                window.location.href = 'calt_mobile_app://events' + window.location.pathname.split('/events')[1];
+            }
+        </script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
