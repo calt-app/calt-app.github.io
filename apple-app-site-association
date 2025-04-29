@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "TEAMID.com.yourapp",
+        "appID": "com.calt.mobile",
         "paths": ["/events/*"]
       }
     ]
